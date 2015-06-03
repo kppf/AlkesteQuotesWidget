@@ -19,7 +19,8 @@ public class MyWidgetProvider extends AppWidgetProvider {
 			"At the end of the game, pawns and kings go back into the same box",
 			"Provide me a track long enough and I shall race against light",
 			"Do things will passion, or not at all",
-			"It is simple to live when it is not complicated",
+			"Success hugs you in private but failure slaps you in public",
+			"You are the best. Remember that. EXCELSIOR!",
 			"It does not matter how slowly you go as long as you do not stop",
 			"The most certain way to succeed is always to try just one more time",
 			"In order to succeed, we must first believe that we can",
@@ -33,6 +34,8 @@ public class MyWidgetProvider extends AppWidgetProvider {
 			"Everything you ever wanted, is on the other side of fear",
 			"Get in the driver's seat of life. Drive yourself",
 			"People will always say you can't, say that yourself too?",
+			"You're gonna rattle the stars, You ARE!",
+			"Magic happens beyond your comfort zone, always",
 			"Every dark cloud has a silver lining" };
 
 	@Override
