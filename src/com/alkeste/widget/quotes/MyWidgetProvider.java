@@ -8,7 +8,6 @@ import android.appwidget.AppWidgetProvider;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
-import android.util.Log;
 import android.widget.RemoteViews;
 
 public class MyWidgetProvider extends AppWidgetProvider {
@@ -52,7 +51,7 @@ public class MyWidgetProvider extends AppWidgetProvider {
 			String quote = getRandomQuote();
 			RemoteViews remoteViews = new RemoteViews(context.getPackageName(),
 					R.layout.widget_layout);
-			Log.w("WidgetExample", quote);
+			// Log.w("WidgetExample", quote);
 			// Set the text
 			remoteViews.setTextViewText(R.id.update, quote);
 
